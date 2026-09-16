@@ -132,6 +132,33 @@ Now, the matrix files (**filtered_feature_bc_matrix**), loom files (**.loom**), 
 Seurat will be used for *UMAP* and *trajectory* analysis.  
 velocyto will be used for *velocity* analysis.  
 
-[UMAP_B6.R](scripts/3_1_UMAP_B6.R) | [UMAP_all.R](scripts/3_2_UMAP_all.R)  
-[trajectory_B6.R](scripts/4_1_trajectory_B6.R) | [trajectory_all.R](scripts/4_2_trajectory_all.R)  
-[velocity_B6.R](scripts/5_1_velocity_B6.R) | [velocity_all.R](scripts/5_2_velocity_all.R)  
+<br>
+
+**B6 Cells**  
+[UMAP_B6.R](scripts/3_1_UMAP_B6.R)  
+[UMAP_B6.png](<images/1_UMAP_Cell Clusters of B6 Cells (Adult).png>) | [Cldn11 Fabp3.png](<images/2_3_Feature Visualization of B6 Cells_Cldn11 Fabp3.png>) | [Dmrt1.png](<images/4_Feature Visualization of B6 Cells_Dmrt1.png>) | [Piwil1.png](<images/5_Feature Visualization of B6 Cells_Piwil1.png>) | [Tex21.png](<images/6_Feature Visualization of B6 Cells_Tex21.png>) | [Tnp1.png](<images/7_Feature Visualization of B6 Cells_Tnp1.png>)
+
+[trajectory_B6.R](scripts/4_1_trajectory_B6.R)  
+[trajectory_B6_curves.png](<images/8_Trajectory of B6 Cells_curves.png>) | [trajectory_B6_lineages.png](<images/9_Trajectory of B6 Cells_lineages.png>)
+
+[velocity_B6.R](scripts/5_1_velocity_B6.R)  
+<p align="center">
+ Velocity of B6 Cells<br>
+  <img src="images/10_Velocity of B6 Cells.png" alt="Velocity of B6 Cells" width="600">
+</p>
+
+<br>
+
+**Cells of P5, P10, P20, P30, P35 and B6.**  
+[UMAP_all.R](scripts/3_2_UMAP_all.R)  
+[UMAP_all.png](<images/11_Cell Clusters of All Sample Cells (P5, P10, ..., P35, B6).png>) | [Cldn11.png](<images/12_Feature Visualization of All Sample Cells_Cldn11.png>) | [Fabp3.png](<images/13_Feature Visualization of All Sample Cells_Fabp3.png>) | [Dmrt1.png](<images/14_Feature Visualization of All Sample Cells_Dmrt1.png>) | [Piwil1.png](<images/15_Feature Visualization of All Sample Cells_Piwil1.png>) | [Tex21.png](<images/16_Feature Visualization of All Sample Cells_Tex21.png>) | [Tnp1.png](<images/17_Feature Visualization of All Sample Cells_Tnp1.png>)
+
+[trajectory_all.R](scripts/4_2_trajectory_all.R)   
+[trajectory_all_curves_noRoot.npg](<images/18_Trajectory of All Sample Cells_curves_Legend.png>) | [trajectory_all_lineages_noRoot.npg](<images/19_Trajectory of All Sample Cells_lineages_Legend.png>)  
+[trajectory_all_curves_SpermatogoniaRoot.npg](<images/20_Trajectory of All Sample Cells_curves_Legend.png>) | [trajectory_all_lineages_SpermatogoniaRoot.npg](<images/21_Trajectory of All Sample Cells_lineages_Legend.png>)
+
+[velocity_all.R](scripts/5_2_velocity_all.R)  
+<p align="center">
+ Velocity of All Sample Cells<br>
+  <img src="images/22_Velocity of All Sample Cells.png" alt="Velocity of All Sample Cells" width="600">
+</p>
