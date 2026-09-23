@@ -84,7 +84,7 @@ cellranger count \
 ```
 
 Cells of P5, P10, P20, P30, and P35.  
-**Script**: [cellrangerCount_P5_P35.sh](scripts/cellrangerCount_P5_P35.sh)
+cellrangerCount_P5_P35.sh
 
 ## Manage bam files with velocyto
 ### Install velocyto and its dependencies
